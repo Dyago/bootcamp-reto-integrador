@@ -1,4 +1,4 @@
-package pe.com.bootcamp.bootcampbsfavoriteservices;
+package pe.com.bootcamp.favorite;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

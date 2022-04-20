@@ -1,4 +1,4 @@
-package pe.com.bootcamp.bootcampbsfavoriteservices;
+package pe.com.bootcamp.favorite;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
