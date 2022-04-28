@@ -3,12 +3,3 @@ spring:
     name: bootcamp-bs-payment-services
   config:
     import: optional:configserver:http://localhost:8888
-    
-  r2dbc:
-    url: 'r2dbc:h2:mem:///testdb;DB_CLOSE_DELAY=-1'
-    username: sa
-    password: sa
-    pool:
-      initial-size: 1
-      max-size: 2
-      validation-query: SELECT 1
