@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: bootcamp-ux-banca-movil
+  config:
+    import: optional:configserver:http://localhost:8888
+    
+application:
+  channel-code: BM
+  http-client:
+    bs-payment: 'http://localhost:8080/products'
+
+server:
+  port: 8082
