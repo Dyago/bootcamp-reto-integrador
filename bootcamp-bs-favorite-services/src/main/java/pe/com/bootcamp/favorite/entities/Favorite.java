@@ -27,8 +27,8 @@ public class Favorite implements Serializable {
 	 */
 	private static final long serialVersionUID = 1L;
 	@Id
-	private Long id;
+	private String id;
 	private String name;
 	private String type;
-	private String serviceCode;
+	private String productCode;
 }
